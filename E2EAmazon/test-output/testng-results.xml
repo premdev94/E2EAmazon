@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36446" started-at="2020-11-17T19:28:09 IST" finished-at="2020-11-17T19:28:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36446" started-at="2020-11-17T19:28:09 IST" finished-at="2020-11-17T19:28:46 IST">
+      <class name="testcases.TC003">
+        <test-method status="FAIL" signature="Checkcartcountafter()[pri:0, instance:testcases.TC003@5bd03f44]" name="Checkcartcountafter" duration-ms="3216" started-at="2020-11-17T19:28:41 IST" finished-at="2020-11-17T19:28:45 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testcases.TC003.Checkcartcountafter(TC003.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcartcountafter -->
+      </class> <!-- testcases.TC003 -->
+      <class name="testcases.TC002">
+        <test-method status="PASS" signature="Clickaddtocart()[pri:0, instance:testcases.TC002@17046283]" name="Clickaddtocart" duration-ms="16048" started-at="2020-11-17T19:28:25 IST" finished-at="2020-11-17T19:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickaddtocart -->
+      </class> <!-- testcases.TC002 -->
+      <class name="testcases.TC001">
+        <test-method status="PASS" signature="loginamazon()[pri:0, instance:testcases.TC001@70e8f8e]" name="loginamazon" is-config="true" duration-ms="12101" started-at="2020-11-17T19:28:10 IST" finished-at="2020-11-17T19:28:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginamazon -->
+        <test-method status="PASS" signature="Checkcartcountbefore()[pri:0, instance:testcases.TC001@70e8f8e]" name="Checkcartcountbefore" duration-ms="3594" started-at="2020-11-17T19:28:22 IST" finished-at="2020-11-17T19:28:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcartcountbefore -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.TC001@70e8f8e]" name="closebrowser" is-config="true" duration-ms="855" started-at="2020-11-17T19:28:45 IST" finished-at="2020-11-17T19:28:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.TC001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
