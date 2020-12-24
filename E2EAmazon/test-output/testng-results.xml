@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" ignored="4" total="7" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36446" started-at="2020-11-17T19:28:09 IST" finished-at="2020-11-17T19:28:46 IST">
+  <suite name="Suite" duration-ms="76635" started-at="2020-12-24T19:26:20 IST" finished-at="2020-12-24T19:27:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36446" started-at="2020-11-17T19:28:09 IST" finished-at="2020-11-17T19:28:46 IST">
+    <test name="Test" duration-ms="76635" started-at="2020-12-24T19:26:20 IST" finished-at="2020-12-24T19:27:37 IST">
       <class name="testcases.TC003">
-        <test-method status="FAIL" signature="Checkcartcountafter()[pri:0, instance:testcases.TC003@5bd03f44]" name="Checkcartcountafter" duration-ms="3216" started-at="2020-11-17T19:28:41 IST" finished-at="2020-11-17T19:28:45 IST">
+        <test-method status="FAIL" signature="Checkcartcountafter()[pri:0, instance:testcases.TC003@5bd03f44]" name="Checkcartcountafter" duration-ms="3120" started-at="2020-12-24T19:27:32 IST" finished-at="2020-12-24T19:27:35 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [2] but found [0]]]>
+              <![CDATA[expected [1] but found [0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
@@ -56,21 +56,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Checkcartcountafter -->
       </class> <!-- testcases.TC003 -->
       <class name="testcases.TC002">
-        <test-method status="PASS" signature="Clickaddtocart()[pri:0, instance:testcases.TC002@17046283]" name="Clickaddtocart" duration-ms="16048" started-at="2020-11-17T19:28:25 IST" finished-at="2020-11-17T19:28:41 IST">
+        <test-method status="PASS" signature="Clickaddtocart()[pri:0, instance:testcases.TC002@17046283]" name="Clickaddtocart" duration-ms="30662" started-at="2020-12-24T19:27:01 IST" finished-at="2020-12-24T19:27:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clickaddtocart -->
       </class> <!-- testcases.TC002 -->
       <class name="testcases.TC001">
-        <test-method status="PASS" signature="loginamazon()[pri:0, instance:testcases.TC001@70e8f8e]" name="loginamazon" is-config="true" duration-ms="12101" started-at="2020-11-17T19:28:10 IST" finished-at="2020-11-17T19:28:22 IST">
+        <test-method status="PASS" signature="loginamazon()[pri:0, instance:testcases.TC001@70e8f8e]" name="loginamazon" is-config="true" duration-ms="36217" started-at="2020-12-24T19:26:20 IST" finished-at="2020-12-24T19:26:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginamazon -->
-        <test-method status="PASS" signature="Checkcartcountbefore()[pri:0, instance:testcases.TC001@70e8f8e]" name="Checkcartcountbefore" duration-ms="3594" started-at="2020-11-17T19:28:22 IST" finished-at="2020-11-17T19:28:25 IST">
+        <test-method status="PASS" signature="Checkcartcountbefore()[pri:0, instance:testcases.TC001@70e8f8e]" name="Checkcartcountbefore" duration-ms="4850" started-at="2020-12-24T19:26:57 IST" finished-at="2020-12-24T19:27:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkcartcountbefore -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.TC001@70e8f8e]" name="closebrowser" is-config="true" duration-ms="855" started-at="2020-11-17T19:28:45 IST" finished-at="2020-11-17T19:28:46 IST">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.TC001@70e8f8e]" name="closebrowser" is-config="true" duration-ms="1078" started-at="2020-12-24T19:27:36 IST" finished-at="2020-12-24T19:27:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->

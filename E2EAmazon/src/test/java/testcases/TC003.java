@@ -15,7 +15,7 @@ public class TC003 extends Sequential{
 		Cart_amazon cp = new Cart_amazon(driver);
 		cp.Cartclick().click();
 		System.out.println(cp.Cartcount().getText());
-		Assert.assertEquals(cp.Cartcount().getText(), "2");
+		Assert.assertEquals(cp.Cartcount().getText(), "1");
 		Thread.sleep(5000);
 		Actions a=new Actions(driver);
 		Logout_amazon logoutpage = new Logout_amazon(driver);
